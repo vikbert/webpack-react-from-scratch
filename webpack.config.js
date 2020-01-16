@@ -8,7 +8,7 @@ module.exports = {
     path: path.resolve(__dirname, "dist")
   },
   devServer: {
-    contentBase: path.join(__dirname, "./"),
+    contentBase: path.join(__dirname, "./src"),
     watchContentBase: true,
     hot: true,
     host: "0.0.0.0",
