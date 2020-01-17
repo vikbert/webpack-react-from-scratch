@@ -31,7 +31,7 @@
 ## 05: Load `react` with `babel-loader`
 
 - [x] create new branch named `feature/05_react`
-- [ ] install packages
+- [ ] install babel packages
 
   - [ ] `@babel/core`
   - [ ] `@babel/preset-env` compiling ES6 down to ES5
