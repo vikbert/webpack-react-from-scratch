@@ -14,13 +14,13 @@ touch src/index.js
 touch dist/index.html
 ```
 
-add content to `src/index.js`
+content of `src/index.js`
 
 ```js
 console.log("index.js called");
 ```
 
-add content to `index.html`
+content of `index.html`
 
 ```html
 <!DOCTYPE html>
