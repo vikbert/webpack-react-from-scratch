@@ -55,3 +55,37 @@ update the script in `package.json`
 ```bash
  npm run start
 ```
+
+## use index template
+
+install package `html-webpack-plugin`
+
+```bash
+ npm install html-webpack-plugin -D
+ rm -rf dist/index.html
+ rm -rf public/
+```
+
+add new config `webpack.config.js`
+
+```bash
++ const HtmlWebpackPlugin = require("html-webpack-plugin");
+
+ module.exports = {
++  plugins: [
++    new HtmlWebpackPlugin({
++      filename: "index.html",
++      template: "src/index.html"
++    })
++  ],
+
+```
+
+remove this line:
+
+```bash
+ devServer: {
+-    contentBase: path.join(__dirname, "./public"),
+```
+
+> this will allow webpack to create the auto-generated `index.html` in `dist/`, if `npm run build` applied.
