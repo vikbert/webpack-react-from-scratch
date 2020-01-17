@@ -2,9 +2,7 @@
 
 ## 01: Init package.json
 
-```bash
- npm init -y
-```
+`npm init -y`
 
 ## 02: Init webpack & Webpack-cli
 
