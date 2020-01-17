@@ -1,6 +1,6 @@
-import React from "react";
-import ReactDOM from "react-dom";
-import App from "./App";
-import "./index.css";
+import hello from "./hello";
+import "./red.css";
+import "./blue.scss";
 
-ReactDOM.render(<App />, document.getElementById("root"));
+console.log("index.js called");
+hello("webpack");

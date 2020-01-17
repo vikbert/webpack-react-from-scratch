@@ -30,12 +30,13 @@ body {
 
 .vscode-dark code {
   color: #90c378;
+  font-size: 0.8em;
 }
 
 .vscode-dark pre:not(.hljs),
 .vscode-dark code > div {
   background-color: #2c323c;
-  font-size: 0.8em;
+  font-size: 1em;
 }
 
 .vscode-dark table > thead > tr > th {
@@ -49,6 +50,8 @@ body {
 
 .vscode-dark blockquote {
   color: #e0e1e4;
+  font-size: 0.8em;
+  font-style: italic;
   padding: 0 1em;
   border-left: 0.55em solid rgb(184, 183, 180);
   background: rgb(67, 67, 67);

@@ -1,7 +1,29 @@
-# Webpack config from scratch
+# Webpack + react from scratch
 
-## Init package.json
+## 01: Init package.json
 
 ```bash
  npm init -y
 ```
+
+## 02: Init webpack & Webpack-cli
+
+- [x] create new branch named `feature/02_webpack_init`
+- [ ] install packages
+- [ ] create directories and init files
+- [ ] create init config file
+
+## 03: Config devserver & use HTML template
+
+- [x] create new branch named `feature/03_devserver`
+- [ ] install packages `ebpack-dev-server`
+- [ ] create directories and init files `public/index.html`
+- [ ] config devserver in `webpack.config.js`
+- [ ] use template html with `html-webpack-plugin`
+
+## 04: Load `css` and `scss`
+
+- [x] create new branch named `feature/04_css_scss`
+- [ ] install packages `css-loader`, `style-loader`
+- [ ] install package `sass-loader`, `node-sass`
+- [ ] config webpack to load `css`, `sass`
