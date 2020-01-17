@@ -27,3 +27,15 @@
 - [ ] install packages `css-loader`, `style-loader`
 - [ ] install package `sass-loader`, `node-sass`
 - [ ] config webpack to load `css`, `sass`
+
+## 05: Load `react` with `babel-loader`
+
+- [x] create new branch named `feature/05_react`
+- [ ] install babel packages
+
+  - [ ] `@babel/core`
+  - [ ] `@babel/preset-env` compiling ES6 down to ES5
+  - [ ] `babel-loader` loader for webpack
+
+- install `@babel/preset-react` for compiling JSX and other down to JavaScript
+- config webpack to make all work together
