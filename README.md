@@ -13,9 +13,14 @@
 - [ ] create directories and init files
 - [ ] create init config file
 
-## Serve static html
+## 03: Config devserver
 
 ### devserver
+
+- [x] create new branch named `feature/03_devserver`
+- [ ] install packages
+- [ ] create directories and init files
+- [ ] create init config file
 
 ### entry
 

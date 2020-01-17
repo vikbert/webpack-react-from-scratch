@@ -4,7 +4,7 @@
   "description": "## Init package.json",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack --mode development",
+    "start": "./node_modules/.bin/webpack-dev-server --config ./webpack.config.js --mode development",
     "build": "webpack --mode production",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -21,6 +21,7 @@
   "homepage": "https://github.com/vikbert/webpack-react-from-scratch#readme",
   "devDependencies": {
     "webpack": "^4.41.5",
-    "webpack-cli": "^3.3.10"
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.1"
   }
 }
