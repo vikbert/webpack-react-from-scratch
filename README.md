@@ -20,3 +20,10 @@
 - [ ] create directories and init files `public/index.html`
 - [ ] config devserver in `webpack.config.js`
 - [ ] use template html with `html-webpack-plugin`
+
+## 04: Load `css` and `scss`
+
+- [x] create new branch named `feature/04_css_scss`
+- [ ] install packages `css-loader`, `style-loader`
+- [ ] install package `sass-loader`, `node-sass`
+- [ ] config webpack to load `css`, `sass`
