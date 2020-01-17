@@ -1,6 +1,6 @@
-# Webpack config from scratch
+# Webpack + react from scratch
 
-## Init package.json
+## 01: Init package.json
 
 ```bash
  npm init -y
