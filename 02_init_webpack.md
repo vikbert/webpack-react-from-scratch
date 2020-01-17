@@ -11,13 +11,26 @@ npm install webpack webpack-cli -D
 ```bash
 mkdir dist src
 touch src/index.js
+touch src/hello.js
 touch dist/index.html
+```
+
+content of `src/hello.js`
+
+```js
+const hello = message => {
+  console.log(`Hello, ${message}!`);
+};
+
+export default hello;
 ```
 
 content of `src/index.js`
 
 ```js
+import hello from "./hello";
 console.log("index.js called");
+hello("webpack");
 ```
 
 content of `index.html`
