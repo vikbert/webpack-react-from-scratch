@@ -1,5 +1,3 @@
-const hello = message => {
-  console.log(`Hello, ${message}!`);
-};
+const hello = () => {};
 
 export default hello;
