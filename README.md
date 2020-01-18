@@ -37,3 +37,11 @@
 
 - install `@babel/preset-react` for compiling JSX and other down to JavaScript
 - config webpack to make all work together
+
+## 06: use `eslint` & `prettier`
+
+- [x] create new branch named `feature/06_eslint`
+- [ ] install `loader-eslint`
+- [ ] config `eslint` in package.json
+- [ ] install more packages to combine `eslint` and `prettier`
+- [ ] config `prettier` in package.json
