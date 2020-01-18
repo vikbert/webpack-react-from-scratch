@@ -23,10 +23,21 @@
     "@babel/core": "^7.8.3",
     "@babel/preset-env": "^7.8.3",
     "@babel/preset-react": "^7.8.3",
+    "babel-eslint": "^10.0.3",
     "babel-loader": "^8.0.6",
     "css-loader": "^3.4.2",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-prettier": "^6.9.0",
+    "eslint-loader": "^3.0.3",
+    "eslint-plugin-import": "^2.20.0",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-react": "^7.18.0",
+    "eslint-plugin-react-hooks": "^1.7.0",
     "html-webpack-plugin": "^3.2.0",
     "node-sass": "^4.13.1",
+    "prettier": "^1.19.1",
     "sass-loader": "^8.0.2",
     "style-loader": "^1.1.2",
     "webpack": "^4.41.5",
@@ -36,5 +47,59 @@
   "dependencies": {
     "react": "^16.12.0",
     "react-dom": "^16.12.0"
+  },
+  "babel": {
+    "presets": [
+      [
+        "@babel/preset-env",
+        {
+          "loose": true,
+          "targets": {
+            "esmodules": true
+          }
+        }
+      ],
+      "@babel/preset-react"
+    ]
+  },
+  "prettier": {
+    "semi": true,
+    "trailingComma": "all",
+    "singleQuote": true,
+    "printWidth": 70
+  },
+  "eslintConfig": {
+    "env": {
+      "browser": true,
+      "es6": true
+    },
+    "extends": [
+      "plugin:react/recommended",
+      "airbnb",
+      "prettier"
+    ],
+    "globals": {
+      "Atomics": "readonly",
+      "SharedArrayBuffer": "readonly"
+    },
+    "parserOptions": {
+      "ecmaFeatures": {
+        "jsx": true
+      },
+      "ecmaVersion": 2018,
+      "sourceType": "module"
+    },
+    "plugins": [
+      "react",
+      "prettier"
+    ],
+    "rules": {
+      "prettier/prettier": [
+        "error"
+      ],
+      "react/jsx-filename-extension": [
+        0
+      ]
+    }
   }
 }
